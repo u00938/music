@@ -1,0 +1,99 @@
+.header {
+  width: 100%;
+  height: 100%;
+  display: flex;
+
+  align-items: center;
+  justify-content: center;
+
+  background-color: #333;
+  /* background-color: rgb(102, 85, 123); */
+
+  font-weight: bold;
+  /* background-color: rgba(0, 0, 0, 0.1); */
+}
+
+.header * {
+  color: white;
+}
+
+.logo {
+  width: 40%;
+  height: 100%;
+
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: 100%;
+
+  margin-left: 10px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* background-color: yellow; */
+
+  /* text-shadow: -2px 0 white, 0 2px white, 2px 0 white, 0 -2px white; */
+  /* -webkit-text-stroke: 2px red; width and color */
+
+  font-style: italic;
+
+  font-size: 30px;
+  font-weight: bolder;
+}
+
+.search {
+  width: 100%;
+  height: 100%;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  /* background-color: yellowgreen; */
+}
+.nav_bar {
+  width: 40%;
+  height: 100%;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+/* 
+.mypage_btn,
+.myhome_btn {
+  margin-right: 5px;
+} */
+
+.search_bar {
+  width: 60%;
+  height: 50%;
+  margin-right: 10px;
+
+  padding-left: 10px;
+
+  color: black;
+}
+
+.text_btn,
+.mypage_btn,
+.logoutButton {
+  background-color: transparent;
+  border: none;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  width: 20%;
+  height: 100%;
+}
+
+.headerBackground * {
+  color: white;
+}
+
+.search_btn :hover {
+  cursor: pointer;
+}

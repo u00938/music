@@ -1,0 +1,85 @@
+.container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  flex-direction: column;
+
+  background-color: white;
+}
+
+.container * {
+  color: rgb(54, 54, 54);
+}
+
+.mvInfo_box {
+  margin-top: 30px;
+  background-color: white;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  width: 85%;
+
+  height: 400px;
+
+  margin-bottom: 20px;
+}
+
+.mvPoster,
+.posterImg {
+  height: 100%;
+}
+
+.mvInfo {
+  height: 100%;
+
+  padding-left: 30px;
+}
+
+.mvInfo > p {
+  margin-bottom: 10px;
+  font-size: 1.2rem;
+
+  line-height: 30px;
+}
+
+.mvInfoTitle {
+  font-size: 2rem;
+}
+
+.mvInfo > p:first-child {
+  margin-top: 20px;
+  margin-bottom: 30px;
+  padding-bottom: 15px;
+  padding-right: 30px;
+
+  border-bottom: 3px solid #f25270;
+}
+
+.posts_box {
+  width: 85%;
+}
+
+.newReview_btn_box {
+  height: 50px;
+
+  display: flex;
+
+  justify-content: center;
+  align-items: center;
+
+  background-color: #f25270;
+
+  margin-bottom: 20px;
+
+  border-radius: 7px;
+}
+
+.newReview_btn_box * {
+  font-weight: bold;
+  font-size: 1.2rem;
+  color: white;
+}
